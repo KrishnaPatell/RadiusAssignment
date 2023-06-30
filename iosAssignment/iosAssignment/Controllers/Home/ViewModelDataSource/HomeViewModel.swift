@@ -86,9 +86,9 @@ extension HomeViewModel {
     func setSelectedOptionWithFacility(facilityId: String, optionId: String, forIndex: Int) {
         //check if facility is already there or not
         if selectedThings.contains(where: { $0.facility_id == facilityId}) {
-            if let index = selectedThings.firstIndex(where: { $0.facility_id == facilityId }) {
-                let canAdd = checkForExclusion(incomingFacilityId: facilityId, incomingOptionId: optionId)
-                if canAdd {
+            let canAdd = checkForExclusion(incomingFacilityId: facilityId, incomingOptionId: optionId)
+            if canAdd {
+                if let index = selectedThings.firstIndex(where: { $0.facility_id == facilityId }) {
                     var objS = selectedThings[index]
                     objS.facility_id = facilityId
                     objS.option_id = optionId

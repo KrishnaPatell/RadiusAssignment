@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (4.9.1)
+  - IQKeyboardManagerSwift (6.5.11)
+  - ReachabilitySwift (4.3.1)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
+  - SVProgressHUD (2.2.5)
+  - SwiftMessages (9.0.6):
+    - SwiftMessages/App (= 9.0.6)
+  - SwiftMessages/App (9.0.6)
+  - SwiftyJSON (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - IQKeyboardManagerSwift
+  - ReachabilitySwift (~> 4.3.1)
+  - SDWebImage
+  - SVProgressHUD
+  - SwiftMessages
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - ReachabilitySwift
+    - SDWebImage
+    - SVProgressHUD
+    - SwiftMessages
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftMessages: f0c7ef4705a570ad6c5e208b611f4333e660ed92
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+
+PODFILE CHECKSUM: 75f3956fe0e7de6d37d902ce9b28bbbc06bd99c0
+
+COCOAPODS: 1.12.1

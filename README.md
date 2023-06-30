@@ -17,5 +17,5 @@
 - SVProgressHUD -> To show progress while waiting for API response. We can also use skleton instead on this.
 - ReachabilitySwift -> Used to check network connectivity.
 
-## Contibutor
+## Author
 - Krishna R. Patel

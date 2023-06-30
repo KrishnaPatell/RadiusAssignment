@@ -85,6 +85,13 @@ extension HomeDataSource : UITableViewDelegate,UITableViewDataSource{
         viewModel.setSelectedOptionWithFacility(facilityId: objFac?.facilityId ?? "", optionId: obj.id ?? "", forIndex: indexPath.section)
        
     }
+    func tableView(_ tableView: UITableView, willDisplayHeaderView view: UIView, forSection section: Int) {
+        if let headerView = view as? UITableViewHeaderFooterView, let label = headerView.textLabel{
+            headerView.contentView.backgroundColor = kCOLOR_THEME.withAlphaComponent(0.5)
+            label.textColor = kCOLOR_WHITE
+            label.font = UIFont(name: fFONT_BOLD_O, size: calculateForWidth(size: 17.0))
+        }
+    }
 }
 
 

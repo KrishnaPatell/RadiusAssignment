@@ -52,7 +52,6 @@
 		347718212A4E9A9B00AA71DC /* DynamicAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477181E2A4E9A9B00AA71DC /* DynamicAsync.swift */; };
 		347718302A4E9D4D00AA71DC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477182B2A4E9D4D00AA71DC /* Utils.swift */; };
 		347718312A4E9D4D00AA71DC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477182C2A4E9D4D00AA71DC /* Enums.swift */; };
-		347718322A4E9D4D00AA71DC /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477182D2A4E9D4D00AA71DC /* StringConstants.swift */; };
 		347718332A4E9D4D00AA71DC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477182E2A4E9D4D00AA71DC /* Constants.swift */; };
 		347718342A4E9D4D00AA71DC /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3477182F2A4E9D4D00AA71DC /* Structs.swift */; };
 		E43D050C211CE57DEA58C9CF /* Pods_iosAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EA5082FEFEF5740C5A87A49 /* Pods_iosAssignment.framework */; };
@@ -108,7 +107,6 @@
 		3477181E2A4E9A9B00AA71DC /* DynamicAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicAsync.swift; sourceTree = "<group>"; };
 		3477182B2A4E9D4D00AA71DC /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3477182C2A4E9D4D00AA71DC /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
-		3477182D2A4E9D4D00AA71DC /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		3477182E2A4E9D4D00AA71DC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3477182F2A4E9D4D00AA71DC /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		DE7535F1FFEF6919246389EE /* Pods-iosAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosAssignment.debug.xcconfig"; path = "Target Support Files/Pods-iosAssignment/Pods-iosAssignment.debug.xcconfig"; sourceTree = "<group>"; };
@@ -257,7 +255,6 @@
 				343745122A4EA5670091AE42 /* API */,
 				3477182E2A4E9D4D00AA71DC /* Constants.swift */,
 				3477182C2A4E9D4D00AA71DC /* Enums.swift */,
-				3477182D2A4E9D4D00AA71DC /* StringConstants.swift */,
 				3477182F2A4E9D4D00AA71DC /* Structs.swift */,
 				3477182B2A4E9D4D00AA71DC /* Utils.swift */,
 				3477181B2A4E9A9B00AA71DC /* Dynamics */,
@@ -465,7 +462,6 @@
 				343745542A4EB3130091AE42 /* HomeDataSource.swift in Sources */,
 				347718212A4E9A9B00AA71DC /* DynamicAsync.swift in Sources */,
 				343745452A4EA6D60091AE42 /* Ext+UIViewAnimation.swift in Sources */,
-				347718322A4E9D4D00AA71DC /* StringConstants.swift in Sources */,
 				3437453D2A4EA6D60091AE42 /* CardView.swift in Sources */,
 				3437453A2A4EA6D60091AE42 /* RoundButton.swift in Sources */,
 				347718342A4E9D4D00AA71DC /* Structs.swift in Sources */,

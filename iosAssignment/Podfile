@@ -8,9 +8,7 @@ target 'iosAssignment' do
   # Pods for iosAssignment
 
 pod 'SwiftyJSON'
- pod 'IQKeyboardManagerSwift'
  pod 'ReachabilitySwift', '~> 4.3.1'
- pod 'SDWebImage'
  pod 'SwiftMessages'
  pod 'SVProgressHUD'
 pod 'Alamofire', '~> 4.9.1'
